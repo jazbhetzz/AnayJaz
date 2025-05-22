@@ -1,0 +1,89 @@
+#contenedor{
+	border:3px solid #283d3d;
+}
+#cabecera{
+	background-color:#4f6a6a;
+	padding:30px;
+	text-align: center;
+}
+.cuerpo{
+	background-color:#385858;
+	padding: 30px;
+	text-align: justify;
+	height: 100%;
+	margin-top: 7px;
+	float: left;
+	width: 60%;
+}
+.derecho{
+	float:right;
+	width:20%;
+	text-align: center;
+	padding:20px;
+	background-color:#283d3d;
+	height:100%;
+	margin-top:7px;
+	
+}
+.izquierdo{
+	float: left;
+	width:20%;
+	text-align:center;
+	padding:20px;
+	background-color:#2f4f4f;
+	height:100%;
+	margin-top:7px;
+}
+.pie{
+	background-color:#4f6a6a;
+	text-align: center;
+	padding:10px;
+}
+#alinear{
+	display: flex;
+	margin:7px;
+}
+#ss {
+	overflow: auto;
+	
+}
+#imglogo {
+	max-width:5%;
+	width:auto;
+	height:auto;
+	float: left;
+	
+}
+h1, h2 { 
+ font-family: cursive;
+text-align: center;
+}
+p{
+	font-family: verdana;
+	text-align: justify;
+}
+#imgArtist{
+	max-width:90%;
+	max-height:85%;
+}
+.izquierdo a {
+      background-color:hsla(0.11turn,100%,50%,0.5);  /*Color en link de menú*/
+	  padding:8px; /*Relleno del link que da efecto de botones */
+	  margin-top:2px; /* Margen entre un link  y otro*/
+	  display:block; /*Pantalla valor de bloque*/
+	  width:100%; /* anchura en relleno de los link*/
+	  color:white; /* Color del link*/
+	  font-weight: bold;
+	  text-align:center; 
+	  text-decoration:none; /* sin la linea que caracteriza un enlace*/
+}
+
+
+  .izquierdo a:hover{ /*Efecto hover para menus al seleccionar*/
+		background-color:hsla(0.5turn,100%,50%,0.2);  /* El efecto hover hace que al seleccionar con el puntero 
+		cualquiera de los link, se torne de otro color al establecido en el relleno*/
+		}
+.class1{
+	max-width:90%;
+	max-height:20%;
+}
